@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="RPS.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>ROCK-PAPER-SCISSOR</h1>
+      <div id="images">
+        <img onclick="Calculate('Rock')" src="rock.jpeg" alt="Rock" />
+        <img onclick="Calculate('Paper')" src="paper.jpeg" alt="Paper" />
+        <img onclick="Calculate('Scissor')" src="scissor.jpeg" alt="Scissor" />
+      </div>
+      <div id="display">
+        <h2 id="yourChoice"></h2>
+        <br />
+        <h2 id="computerChoice"></h2>
+        <br />
+        <h2 id="result"></h2>
+        <br />
+        <b id="yScore"></b>
+        <br />
+        <b id="cScore"></b>
+        <br />
+      </div>
+    </div>
+    <script src="RPS.js"></script>
+  </body>
+</html>
